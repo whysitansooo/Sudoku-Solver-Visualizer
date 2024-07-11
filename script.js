@@ -212,32 +212,7 @@ grid.forEach((row, rowIdx) =>
   })
 );
 
-// Event listeners for speed selection
-// const speedBtns = document.querySelectorAll(`#speed ~ ul > li`);
-// speedBtns.forEach((btn) => {
-//   btn.addEventListener("click", (e) => {
-//     // Update the selected speed and reset the grid
-//     speed = e.target.getAttribute("data-value");
-//     speedBtns.forEach((option) => option.classList.remove("active"));
-//     e.target.classList.add("active");
-//     // Map speed to corresponding speed interval
-//     switch (speed) {
-//       case "Fast":
-//         speedInt = -10;
-//         break;
-//       case "Average":
-//         speedInt = 2;
-//         break;
-//       case "Slow":
-//         speedInt = 50;
-//         break;
-//       case "noAnimation":
-//         speedInt = 0;
-//         break;
-//     }
-//     document.getElementById("speed").checked = false;
-//   });
-// });
+
 
 // Event listener for the "Visualize" button
 const visualizeBtn = document.getElementById("visualizeBtn");
