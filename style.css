@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+   
 }
 
 body {
@@ -32,6 +33,8 @@ nav {
 nav .logo {
     font-size: 1.5rem;
     color: rgb(60, 186, 245);
+    color : black ;
+    font-weight: 1000;
     z-index: 2;
 }
 
@@ -54,10 +57,11 @@ nav>ul {
 nav>ul li {
     margin: 0.5rem;
     font-size: 1.05rem;
-    font-weight: 500;
+    font-weight: 1000;
     cursor: pointer;
     padding: 0.3rem;
-    color: rgb(60, 186, 245);
+   
+    color : black;
     transition: all 0.1s linear;
 }
 
@@ -67,75 +71,7 @@ nav>ul li:hover {
     font-weight: 1000;
 }
 
-/* li>input[type="checkbox"] {
-    visibility: hidden;
-}
 
-li>input[type="checkbox"]+label {
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-}
-
-li>input[type="checkbox"]+label:hover {
-    border: none;
-}
-
-li>input[type="checkbox"]+label i {
-    font-size: 1.1rem;
-    margin-left: 0.5rem;
-    transition: all 0.3s;
-}
-
-li>input[type="checkbox"]~ul {
-    display: none;
-}
-
-li>input[type="checkbox"]:checked+label i {
-    transform: rotate(180deg);
-}
-
-li>input[type="checkbox"]:checked~ul {
-    display: block;
-    list-style: none;
-    position: absolute;
-    background: #69baed;
-    box-shadow: 1px 1px 10px rgb(7, 7, 7), -1px -1px 10px #705a5a;
-    color: #fff;
-    border-radius: 5px;
-    padding: 0.5rem;
-    z-index: 400;
-    margin: 0.3rem;
-}
-
-li>input[type="checkbox"]:checked~ul li {
-    width: 10rem;
-    height: 3rem;
-    line-height: 3;
-    border-bottom: 1px dotted #22e5d5c0;
-}
-
-li>input[type="checkbox"]:checked~ul li:hover {
-    border-left: 5px solid #22e5d5c0;
-    padding-left: 0.6rem;
-}
-
-li>input[type="checkbox"]:checked~ul li.active {
-    border-left: 5px solid #22e5d5c0;
-    padding-left: 0.6rem;
-    border-bottom-style: solid;
-} */
-
-/* #visualizeBtn {
-    font-weight: 500;
-    margin-left: 1rem;
-    font-size: 1.1rem;
-}
-
-#visualizeBtn:hover {
-    font-weight: bold;
-    font-size: 1.1rem;
-} */
 
 .overlay {
     position: absolute;
@@ -143,7 +79,7 @@ li>input[type="checkbox"]:checked~ul li.active {
     height: 100%;
     top: 0;
     left: 0;
-    background: #a90076;
+    background:lightgreen;
 }
 
 .alert {
